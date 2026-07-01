@@ -4,5 +4,9 @@
   "description": "Open framework for building AI-readable websites.",
   "author": "Vista by Lara",
   "license": "MIT",
-  "homepage": "https://www.vistabylara.com"
+  "homepage": "https://www.vistabylara.com",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  }
 }
