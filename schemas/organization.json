@@ -1,0 +1,33 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://www.vistabylara.com/#organization",
+  "name": "Vista by Lara",
+  "legalName": "Vista by Lara",
+  "url": "https://www.vistabylara.com",
+  "logo": "https://www.vistabylara.com/logo.png",
+  "description": "Dubai-based AI digital consultancy specializing in AI-ready websites, structured data, Shopify development, technical SEO, Google Ads, and AI Discovery architecture.",
+  "email": "solution@vistabylara.com",
+  "telephone": "+971507994292",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Dubai",
+    "addressCountry": "AE"
+  },
+  "sameAs": [
+    "https://www.linkedin.com/in/lara-eros-farbactian-b438782a9/",
+    "https://vistanewswire.com"
+  ],
+  "knowsAbout": [
+    "Artificial Intelligence",
+    "Structured Data",
+    "Schema.org",
+    "Knowledge Graph",
+    "Technical SEO",
+    "Generative Engine Optimization",
+    "Answer Engine Optimization",
+    "Shopify Development",
+    "Cloudflare Workers",
+    "Google Ads"
+  ]
+}
