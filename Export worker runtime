@@ -1,0 +1,25 @@
+import { Job } from "@/types/job";
+
+export class JobService {
+  private readonly jobs = new Map<string, Job>();
+
+  add(job: Job): void {
+    this.jobs.set(job.id, job);
+  }
+
+  get(id: string): Job | undefined {
+    return this.jobs.get(id);
+  }
+
+  getAll(): Job[] {
+    return [...this.jobs.values()];
+  }
+
+  update(job: Job): void {
+    this.jobs.set(job.id, job);
+  }
+
+  remove(id: string): void {
+    this.jobs.delete(id);
+  }
+}
