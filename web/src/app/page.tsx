@@ -2,7 +2,6 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-neutral-950 text-white flex items-center justify-center">
       <div className="w-full max-w-3xl px-8">
-
         <h1 className="text-5xl font-bold mb-4">
           Vista AI Discovery Engine
         </h1>
@@ -12,7 +11,6 @@ export default function Home() {
         </p>
 
         <div className="rounded-xl border border-neutral-800 bg-neutral-900 p-6">
-
           <label className="block mb-3 text-sm">
             Website URL
           </label>
@@ -27,11 +25,9 @@ export default function Home() {
           >
             Analyze Website
           </button>
-
         </div>
 
         <div className="grid grid-cols-3 gap-4 mt-10">
-
           <div className="rounded-lg bg-neutral-900 p-5 border border-neutral-800">
             <div className="text-neutral-500 text-sm">
               Status
@@ -48,7 +44,7 @@ export default function Home() {
             </div>
 
             <div className="mt-2 text-xl font-semibold">
-              1
+              2
             </div>
           </div>
 
@@ -61,9 +57,7 @@ export default function Home() {
               0.1.0
             </div>
           </div>
-
         </div>
-
       </div>
     </main>
   );
