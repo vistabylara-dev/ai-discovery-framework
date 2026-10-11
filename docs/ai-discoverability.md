@@ -28,10 +28,8 @@ export const metadata: Metadata = {
   keywords: ["AI Discovery", "technical SEO", "structured data", "GEO", "AEO"],
   authors: [{ name: "Lara Farbactian" }],
   creator: "Vista by Lara",
-  alternates: { canonical: "/" },
   openGraph: {
     type: "website",
-    url: "/",
     title: "AI Discovery Framework | Vista by Lara",
     description:
       "Practical methods for AI-readable websites, structured data, semantic architecture, and technical SEO.",
@@ -48,7 +46,21 @@ export const metadata: Metadata = {
 }
 ```
 
-Use a real, preferably 1200 × 630 social preview image and a verified Twitter handle if available. Set canonical URLs per page rather than repeating the homepage URL. Add `article:author`, `article:published_time`, and `article:modified_time` only to article pages, using the article's actual author and publication/update dates. Do not invent alternate-language links; add `hreflang` only for real equivalent translations. The document must declare UTF-8, a responsive viewport, and `<html lang="en">`; preload only verified critical assets that materially improve rendering.
+Set canonical URLs and Open Graph URLs in each page's metadata, not in a shared root layout where a fixed homepage URL could be inherited by child pages. For example, a documentation page should declare its own path:
+
+```tsx
+export const metadata: Metadata = {
+  alternates: { canonical: "/docs/ai-search/" },
+  openGraph: {
+    type: "article",
+    url: "/docs/ai-search/",
+    title: "AI Search Architecture",
+    description: "A page-specific, accurate summary of this guide.",
+  },
+}
+```
+
+Use a real, preferably 1200 × 630 social preview image and a verified Twitter handle if available. Add `article:author`, `article:published_time`, and `article:modified_time` only to article pages, using the article's actual author and publication/update dates. Do not invent alternate-language links; add `hreflang` only for real equivalent translations. The document must declare UTF-8, a responsive viewport, and `<html lang="en">`; preload only verified critical assets that materially improve rendering.
 
 ## Structured data and knowledge relationships
 

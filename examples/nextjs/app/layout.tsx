@@ -1,6 +1,6 @@
-import OrganizationSchema from "../components/OrganizationSchema"
-
 import type { Metadata } from "next"
+
+import OrganizationSchema from "../components/OrganizationSchema"
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.vistabylara.com"),
@@ -10,12 +10,8 @@ export const metadata: Metadata = {
   keywords: ["AI Discovery", "technical SEO", "structured data", "GEO", "AEO"],
   authors: [{ name: "Lara Farbactian" }],
   creator: "Vista by Lara",
-  alternates: {
-    canonical: "/",
-  },
   openGraph: {
     type: "website",
-    url: "/",
     title: "AI Discovery Framework | Vista by Lara",
     description:
       "Practical methods for AI-readable websites, structured data, semantic architecture, and technical SEO.",

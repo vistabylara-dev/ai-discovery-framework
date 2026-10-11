@@ -25,7 +25,7 @@ The framework documents standards-based techniques. It does not promise rankings
 
 ## Machine-readable resources
 
-- [Organization structured data](https://www.vistabylara.com/schemas/organization.json)
+- [Organization structured data](https://www.vistabylara.com/schema/organization.json)
 - [Service structured data](https://www.vistabylara.com/schema/services.json)
 - [FAQ structured data](https://www.vistabylara.com/schema/faq.json)
 - [Article structured data](https://www.vistabylara.com/schema/article.json)
