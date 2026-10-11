@@ -1,0 +1,66 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "CreativeWork",
+      "@id": "https://github.com/vistabylara-dev/ai-discovery-framework#framework",
+      "name": "AI Discovery Framework",
+      "description": "Open-source technical documentation and reference implementations for building AI-readable websites using structured data, semantic architecture, and machine-readable resources.",
+      "url": "https://github.com/vistabylara-dev/ai-discovery-framework",
+      "creator": {
+        "@id": "https://www.vistabylara.com/#organization"
+      },
+      "publisher": {
+        "@id": "https://www.vistabylara.com/#organization"
+      },
+      "license": "https://opensource.org/license/mit",
+      "about": [
+        "AI Discovery",
+        "Answer Engine Optimization",
+        "Generative Engine Optimization",
+        "Technical SEO",
+        "Structured data",
+        "Knowledge graphs"
+      ]
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "@id": "https://github.com/vistabylara-dev/ai-discovery-framework#source",
+      "name": "AI Discovery Framework source code",
+      "codeRepository": "https://github.com/vistabylara-dev/ai-discovery-framework",
+      "programmingLanguage": [
+        "JavaScript",
+        "TypeScript",
+        "JSON"
+      ],
+      "runtimePlatform": "Node.js",
+      "version": "1.0.0",
+      "license": "https://opensource.org/license/mit",
+      "isPartOf": {
+        "@id": "https://github.com/vistabylara-dev/ai-discovery-framework#framework"
+      }
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://github.com/vistabylara-dev/ai-discovery-framework#reference-implementation",
+      "name": "AI Discovery Framework reference implementation",
+      "applicationCategory": "DeveloperApplication",
+      "description": "Open-source reference code and documentation for AI-readable websites; it does not provide a hosted search or ranking service.",
+      "operatingSystem": "Cross-platform",
+      "softwareVersion": "1.0.0",
+      "codeRepository": "https://github.com/vistabylara-dev/ai-discovery-framework",
+      "license": "https://opensource.org/license/mit",
+      "programmingLanguage": [
+        "JavaScript",
+        "TypeScript",
+        "JSON"
+      ],
+      "keywords": [
+        "website architecture",
+        "structured data",
+        "technical SEO",
+        "AI Discovery"
+      ]
+    }
+  ]
+}

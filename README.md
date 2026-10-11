@@ -276,3 +276,21 @@ solution@vistabylara.com
 This repository provides technical guidance and implementation examples.
 
 Search engines and AI systems use their own proprietary algorithms and ranking methods. Following the practices documented here does not guarantee indexing, ranking, or recommendation, but aims to improve the technical clarity and machine readability of websites.
+
+---
+
+# AI Discoverability and SEO Resources
+
+The `public/` directory contains crawler directives, a sitemap, `llms.txt`, structured data, a knowledge graph, citations, security contact, and starter privacy and terms pages. The companion [AI discoverability implementation guide](docs/ai-discoverability.md) covers page metadata, semantic content, accessibility, Core Web Vitals, and compliance readiness. The Next.js example in `examples/nextjs/app/layout.tsx` demonstrates canonical, Open Graph, and Twitter metadata.
+
+## Deployment checklist
+
+This repository is a framework and reference project; it does not configure or deploy the live `vistabylara.com` website. To use these files on that site:
+
+1. Deploy the contents of `public/` at the verified canonical domain's root (for example, `/robots.txt`, `/sitemap.xml`, and `/.well-known/security.txt`).
+2. Ensure the documentation and example URLs listed in `public/sitemap.xml` actually resolve on that domain. Map repository files to real pages or remove entries that are not published; update `lastmod` only when content changes.
+3. Verify the logo, business contact details, and each public claim in structured data. Do not add unverified address, hours, prices, ratings, awards, certifications, or credentials.
+4. Complete the privacy and terms templates against actual site operations and obtain appropriate legal review before publication. Configure consent controls based on the technologies and jurisdictions that apply.
+5. Validate JSON-LD and the sitemap, check rendered metadata and social previews, then submit the sitemap in Google Search Console and Bing Webmaster Tools.
+
+The sample Next.js metadata uses the site's public logo path; confirm the image exists and consider a dedicated social preview image before deployment. The included metadata is an example, not proof that files in this repository are already live on the website.

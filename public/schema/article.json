@@ -1,0 +1,33 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://www.vistabylara.com/docs/ai-discoverability/#article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.vistabylara.com/docs/ai-discoverability/"
+  },
+  "headline": "AI discoverability and SEO implementation guide",
+  "description": "Practical guidance for deploying AI crawler resources, structured data, accurate metadata, accessible content, and privacy-aware SEO.",
+  "author": {
+    "@type": "Person",
+    "@id": "https://www.vistabylara.com/#lara-farbactian",
+    "name": "Lara Farbactian",
+    "url": "https://www.linkedin.com/in/lara-eros-farbactian-b438782a9/"
+  },
+  "publisher": {
+    "@id": "https://www.vistabylara.com/#organization"
+  },
+  "datePublished": "2026-10-11",
+  "dateModified": "2026-10-11",
+  "timeRequired": "PT5M",
+  "keywords": [
+    "AI Discovery",
+    "technical SEO",
+    "structured data",
+    "answer engine optimization",
+    "generative engine optimization",
+    "accessibility",
+    "Core Web Vitals"
+  ],
+  "inLanguage": "en"
+}

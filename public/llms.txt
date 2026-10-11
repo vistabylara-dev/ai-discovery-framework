@@ -28,7 +28,10 @@ The framework documents standards-based techniques. It does not promise rankings
 - [Organization structured data](https://www.vistabylara.com/schemas/organization.json)
 - [Service structured data](https://www.vistabylara.com/schema/services.json)
 - [FAQ structured data](https://www.vistabylara.com/schema/faq.json)
+- [Article structured data](https://www.vistabylara.com/schema/article.json)
+- [Framework structured data](https://www.vistabylara.com/schema/framework.json)
 - [Knowledge graph](https://www.vistabylara.com/knowledge-graph.json)
+- [Citation sources](https://www.vistabylara.com/citations.json)
 - [Sitemap](https://www.vistabylara.com/sitemap.xml)
 
 ## Citation guidance

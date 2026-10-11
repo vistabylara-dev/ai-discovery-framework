@@ -44,7 +44,7 @@
       }
     },
     {
-      "@id": "https://github.com/vistabylara-dev/ai-discovery-framework",
+      "@id": "https://github.com/vistabylara-dev/ai-discovery-framework#source",
       "@type": "SoftwareSourceCode",
       "name": "AI Discovery Framework",
       "codeRepository": "https://github.com/vistabylara-dev/ai-discovery-framework",
@@ -55,7 +55,7 @@
       "@type": "DefinedTerm",
       "name": "AI Discovery",
       "description": "Technical practices for making website information easier for AI systems and search engines to discover and interpret.",
-      "relatedLink": [
+      "subjectOf": [
         "https://www.vistabylara.com/docs/generative-engine-optimization/",
         "https://www.vistabylara.com/docs/ai-search/",
         "https://www.vistabylara.com/docs/entity-seo/"
