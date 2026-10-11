@@ -1,0 +1,55 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": "https://www.vistabylara.com/#faq",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is AI Discovery?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "AI Discovery is the practice of making website information clear, well-structured, and accessible so search engines and AI systems can discover and interpret it."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does AI Discovery differ from traditional SEO?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Traditional SEO focuses on helping search engines crawl, understand, and rank pages. AI Discovery builds on those foundations with explicit entities, semantic relationships, machine-readable resources, and answer-oriented content. Neither guarantees recommendations."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which AI systems can find my content?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Systems can access public content when their crawlers are permitted and the site is reachable. Access, indexing, and use depend on each provider's policies and systems; allowing a crawler does not guarantee inclusion or citation."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I implement structured data?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Describe information that is visible on the page with accurate Schema.org JSON-LD, use stable entity identifiers, validate the JSON and markup, and keep it synchronized with page content."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the difference between AEO and GEO?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Answer Engine Optimization (AEO) emphasizes clear answers for question-driven systems. Generative Engine Optimization (GEO) emphasizes the clarity and context generative search systems use to synthesize responses. Both depend on useful content and sound technical SEO."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why is semantic architecture important?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Semantic architecture defines topics, entities, and their relationships consistently, helping people and automated systems understand what a site says and how its information is connected."
+      }
+    }
+  ]
+}

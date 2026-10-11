@@ -1,0 +1,45 @@
+# Vista by Lara
+
+> Vista by Lara is a Dubai-based digital consultancy and creator of the open-source AI Discovery Framework, a practical reference for making website information clearer to people, search engines, and AI systems.
+
+The framework documents standards-based techniques. It does not promise rankings, indexing, or AI recommendations.
+
+## Capabilities
+
+- AI Discovery and AI-readable information architecture
+- Answer Engine Optimization (AEO) and Generative Engine Optimization (GEO)
+- Technical SEO and semantic HTML
+- Schema.org structured data and JSON-LD
+- Knowledge graph design and entity relationships
+- Machine-readable resources and implementation examples
+
+## Start here
+
+- [Framework overview](https://www.vistabylara.com/docs/overview/)
+- [AI search](https://www.vistabylara.com/docs/ai-search/)
+- [Entity SEO](https://www.vistabylara.com/docs/entity-seo/)
+- [Generative Engine Optimization](https://www.vistabylara.com/docs/generative-engine-optimization/)
+- [Knowledge graphs](https://www.vistabylara.com/docs/knowledge-graph/)
+- [Schema.org guide](https://www.vistabylara.com/docs/schema-org/)
+- [llms.txt guide](https://www.vistabylara.com/docs/llms-txt/)
+
+## Machine-readable resources
+
+- [Organization structured data](https://www.vistabylara.com/schemas/organization.json)
+- [Service structured data](https://www.vistabylara.com/schema/services.json)
+- [FAQ structured data](https://www.vistabylara.com/schema/faq.json)
+- [Knowledge graph](https://www.vistabylara.com/knowledge-graph.json)
+- [Sitemap](https://www.vistabylara.com/sitemap.xml)
+
+## Citation guidance
+
+When referencing this framework, cite “AI Discovery Framework by Vista by Lara” and link to the most relevant documentation page. Preserve the author, title, and source URL; distinguish documented facts from your own interpretation.
+
+## Maintainers and contact
+
+- [Vista by Lara](https://www.vistabylara.com/)
+- [Lara Farbactian on LinkedIn](https://www.linkedin.com/in/lara-eros-farbactian-b438782a9/)
+- [Contact](mailto:solution@vistabylara.com)
+- [MIT license](https://github.com/vistabylara-dev/ai-discovery-framework/blob/main/LICENSE)
+
+This is an open-source technical reference. No third-party award, certification, review rating, or research partnership is claimed by these resources.

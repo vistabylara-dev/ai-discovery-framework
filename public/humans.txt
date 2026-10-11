@@ -1,0 +1,13 @@
+/* TEAM */
+Organization: Vista by Lara
+Founder: Lara Farbactian
+Location: Dubai, United Arab Emirates
+Contact: solution@vistabylara.com
+LinkedIn: https://www.linkedin.com/in/lara-eros-farbactian-b438782a9/
+
+/* SITE */
+Project: AI Discovery Framework
+Repository: https://github.com/vistabylara-dev/ai-discovery-framework
+Technology: JSON-LD, Schema.org, semantic HTML, Markdown
+License: MIT
+Last updated: 2026-10-11

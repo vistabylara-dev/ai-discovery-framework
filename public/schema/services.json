@@ -1,0 +1,88 @@
+{
+  "@context": "https://schema.org",
+  "@type": "OfferCatalog",
+  "@id": "https://www.vistabylara.com/#service-catalog",
+  "name": "AI Discovery and digital discovery services",
+  "itemListElement": [
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Service",
+        "@id": "https://www.vistabylara.com/#ai-discovery-service",
+        "name": "AI Discovery",
+        "description": "Technical strategy and implementation to make website information easier for AI systems and search engines to discover and interpret.",
+        "provider": {
+          "@id": "https://www.vistabylara.com/#organization"
+        },
+        "areaServed": [
+          "United Arab Emirates",
+          "Global"
+        ]
+      }
+    },
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Service",
+        "@id": "https://www.vistabylara.com/#aeo-service",
+        "name": "Answer Engine Optimization (AEO)",
+        "description": "Content and technical improvements intended to make clear, useful answers easier for answer engines to understand.",
+        "provider": {
+          "@id": "https://www.vistabylara.com/#organization"
+        },
+        "areaServed": [
+          "United Arab Emirates",
+          "Global"
+        ]
+      }
+    },
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Service",
+        "@id": "https://www.vistabylara.com/#geo-service",
+        "name": "Generative Engine Optimization (GEO)",
+        "description": "Semantic and content architecture practices for improving how generative search systems interpret a website.",
+        "provider": {
+          "@id": "https://www.vistabylara.com/#organization"
+        },
+        "areaServed": [
+          "United Arab Emirates",
+          "Global"
+        ]
+      }
+    },
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Service",
+        "@id": "https://www.vistabylara.com/#structured-data-service",
+        "name": "Structured Data Implementation",
+        "description": "Schema.org and JSON-LD implementation to describe visible website entities and their relationships.",
+        "provider": {
+          "@id": "https://www.vistabylara.com/#organization"
+        },
+        "areaServed": [
+          "United Arab Emirates",
+          "Global"
+        ]
+      }
+    },
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Service",
+        "@id": "https://www.vistabylara.com/#knowledge-graph-service",
+        "name": "Knowledge Graph Design",
+        "description": "Entity and relationship modeling to provide consistent context across a website and its machine-readable resources.",
+        "provider": {
+          "@id": "https://www.vistabylara.com/#organization"
+        },
+        "areaServed": [
+          "United Arab Emirates",
+          "Global"
+        ]
+      }
+    }
+  ]
+}

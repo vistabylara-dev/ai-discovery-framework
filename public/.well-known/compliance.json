@@ -1,0 +1,15 @@
+{
+  "organization": "Vista by Lara",
+  "website": "https://www.vistabylara.com/",
+  "lastUpdated": "2026-10-11",
+  "dataHandling": {
+    "publicResources": "The files in this directory are public reference information. Do not include personal data or confidential information in them.",
+    "personalData": "This repository does not describe or verify the processing practices of the live website. Consult the published privacy notice and contact the organization for details.",
+    "cookies": "No cookie or analytics practices are asserted by this repository. Disclose and obtain consent where required before enabling non-essential cookies or tracking."
+  },
+  "aiTraining": {
+    "policy": "No blanket AI training opt-out or opt-in is declared here. Review each provider's crawler controls and applicable terms before configuring access."
+  },
+  "certifications": [],
+  "note": "No privacy certification is claimed. This resource is informational and is not legal advice."
+}
