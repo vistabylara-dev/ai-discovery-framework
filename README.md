@@ -276,3 +276,21 @@ solution@vistabylara.com
 This repository provides technical guidance and implementation examples.
 
 Search engines and AI systems use their own proprietary algorithms and ranking methods. Following the practices documented here does not guarantee indexing, ranking, or recommendation, but aims to improve the technical clarity and machine readability of websites.
+
+---
+
+# AI Discoverability and SEO Resources
+
+This repository contains implementation guidance and Next.js examples; it is not the production Vista by Lara website and intentionally has no production `robots.txt`, `llms.txt`, sitemap, public schema bundle, or legal policy files. The companion [AI discoverability implementation guide](docs/ai-discoverability.md) covers page metadata, semantic content, accessibility, Core Web Vitals, and deployment verification.
+
+## Production deployment safety
+
+Do not deploy this repository's example resources over the live website. Its canonical route inventory, current crawler directives, `llms.txt`, and hosting project must be verified in the actual website repository first. In particular:
+
+1. Preserve existing production `robots.txt` and `llms.txt`; do not replace either with an example without a separate, verified site-level change.
+2. Build a sitemap only from canonical, indexable routes confirmed in the website application and live deployment. Do not list repository source files, schema JSON endpoints, or guessed documentation routes.
+3. Validate every production URL and structured-data claim against the live page and verified business details. Do not assume this repository's organization example reflects current production data.
+4. Write and legally review privacy and terms pages from actual site operations; do not publish incomplete templates.
+5. Confirm the production hosting project and successful deployment, verify the live resources, and only then submit the sitemap to search-engine webmaster tools.
+
+This repository does not identify or configure the production website or hosting project. Confirm both before making changes; do not modify DNS or overwrite working production resources as part of this framework project.
