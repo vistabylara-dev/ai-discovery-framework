@@ -1,27 +1,25 @@
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "AI Discovery Framework | Vista by Lara",
+  title: "AI Discovery Framework Example",
   description:
-    "The AI Discovery Framework by Vista by Lara explains practical methods for AI-readable websites, structured data, semantic architecture, and technical SEO.",
+    "Example metadata for a site documenting AI-readable websites, structured data, semantic architecture, and technical SEO.",
   alternates: {
     canonical: "/",
   },
   openGraph: {
     type: "website",
     url: "/",
-    title: "AI Discovery Framework | Vista by Lara",
+    title: "AI Discovery Framework Example",
     description:
       "Practical methods for AI-readable websites, structured data, semantic architecture, and technical SEO.",
-    siteName: "Vista by Lara",
-    images: [{ url: "/logo.png", alt: "Vista by Lara" }],
   },
 }
 
 export default function HomePage() {
   return (
     <main>
-      <h1>AI Discovery Framework</h1>
+      <h1>AI Discovery Framework Example</h1>
       <p>
         Practical methods for AI-readable websites, structured data, semantic
         architecture, and technical SEO.

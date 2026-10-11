@@ -281,16 +281,16 @@ Search engines and AI systems use their own proprietary algorithms and ranking m
 
 # AI Discoverability and SEO Resources
 
-The `public/` directory contains crawler directives, a sitemap, `llms.txt`, structured data, a knowledge graph, citations, security contact, and starter privacy and terms pages. The companion [AI discoverability implementation guide](docs/ai-discoverability.md) covers page metadata, semantic content, accessibility, Core Web Vitals, and compliance readiness. The Next.js example in `examples/nextjs/app/layout.tsx` demonstrates canonical, Open Graph, and Twitter metadata.
+This repository contains implementation guidance and Next.js examples; it is not the production Vista by Lara website and intentionally has no production `robots.txt`, `llms.txt`, sitemap, public schema bundle, or legal policy files. The companion [AI discoverability implementation guide](docs/ai-discoverability.md) covers page metadata, semantic content, accessibility, Core Web Vitals, and deployment verification.
 
-## Deployment checklist
+## Production deployment safety
 
-This repository is a framework and reference project; it does not configure or deploy the live `vistabylara.com` website. To use these files on that site:
+Do not deploy this repository's example resources over the live website. Its canonical route inventory, current crawler directives, `llms.txt`, and hosting project must be verified in the actual website repository first. In particular:
 
-1. Deploy the contents of `public/` at the verified canonical domain's root (for example, `/robots.txt`, `/sitemap.xml`, and `/.well-known/security.txt`).
-2. Ensure the documentation and example URLs listed in `public/sitemap.xml` actually resolve on that domain. Map repository files to real pages or remove entries that are not published; update `lastmod` only when content changes.
-3. Verify the logo, business contact details, and each public claim in structured data. Do not add unverified address, hours, prices, ratings, awards, certifications, or credentials.
-4. Complete the privacy and terms templates against actual site operations and obtain appropriate legal review before publication. Configure consent controls based on the technologies and jurisdictions that apply.
-5. Validate JSON-LD and the sitemap, check rendered metadata and social previews, then submit the sitemap in Google Search Console and Bing Webmaster Tools.
+1. Preserve existing production `robots.txt` and `llms.txt`; do not replace either with an example without a separate, verified site-level change.
+2. Build a sitemap only from canonical, indexable routes confirmed in the website application and live deployment. Do not list repository source files, schema JSON endpoints, or guessed documentation routes.
+3. Validate every production URL and structured-data claim against the live page and verified business details. Do not assume this repository's organization example reflects current production data.
+4. Write and legally review privacy and terms pages from actual site operations; do not publish incomplete templates.
+5. Confirm the production hosting project and successful deployment, verify the live resources, and only then submit the sitemap to search-engine webmaster tools.
 
-The sample Next.js metadata uses the site's public logo path; confirm the image exists and consider a dedicated social preview image before deployment. The included metadata is an example, not proof that files in this repository are already live on the website.
+This repository does not identify or configure the production website or hosting project. Confirm both before making changes; do not modify DNS or overwrite working production resources as part of this framework project.

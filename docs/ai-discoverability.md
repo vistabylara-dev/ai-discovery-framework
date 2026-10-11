@@ -1,17 +1,17 @@
 # AI discoverability and SEO implementation guide
 
-Use this guide when adapting the reference files in `public/` to a real site. Search ranking, indexing, inclusion in generated answers, and citations are controlled by third parties and cannot be guaranteed.
+Use this guide when adapting the examples in this repository to a real site. Search ranking, indexing, inclusion in generated answers, and citations are controlled by third parties and cannot be guaranteed. This repository is not the production Vista website and intentionally does not provide deployable crawler files, a production sitemap, or legal policy pages.
 
-## Publish and verify the resources
+## Verify before production deployment
 
-Deploy the contents of `public/` at the root of the verified canonical domain. This repository does not configure or deploy the live `vistabylara.com` website. Before publishing:
+Do not deploy this repository's examples over existing production resources. Confirm the correct website repository, hosting project, canonical host, and currently served files before making site changes. Before publishing:
 
-- Confirm that `https://www.vistabylara.com/` is the canonical host and that all listed sitemap URLs resolve to indexable pages or resources. Remove or correct routes that do not exist.
-- Update `lastmod` values only when the corresponding page materially changes. Keep the sitemap limited to canonical, indexable URLs and submit it to Google Search Console and Bing Webmaster Tools.
-- Check that robots exclusions apply only to private or non-indexable paths. `robots.txt` is a crawl hint, not access control; protect private content with authentication.
-- Verify that the organization phone number and logo URL in structured data are current. Add a street address, opening hours, review aggregate, service prices, awards, or credentials only when they are public, accurate, and supportable.
-- Replace the contact in `security.txt` if security reports use a different monitored mailbox. Publish the privacy notice and terms only after completing the templates against actual site practices and obtaining appropriate legal review.
-- Confirm the social image URL resolves to a crawlable image with suitable dimensions, and that each page's canonical and metadata match its visible content.
+- Preserve existing production `robots.txt` and `llms.txt` unless an individual change is verified, justified, and reviewed in the website repository.
+- Build or update a sitemap from canonical, indexable page routes verified in the deployed site. Exclude guessed routes, repository source files, and raw schema/JSON resources; do not supersede a working sitemap with an unverified inventory.
+- Validate every intended URL on the live host and confirm canonical metadata and page content agree.
+- Verify all organization, contact, address, logo, service-area, and author claims against current production information. Add prices, hours, ratings, awards, or credentials only when independently confirmed.
+- Publish privacy and terms pages only after completing them against actual site practices and obtaining appropriate legal review.
+- Confirm the production hosting project and successful deployment before submitting a sitemap to Google Search Console or Bing Webmaster Tools.
 
 ## Page metadata
 
@@ -21,27 +21,22 @@ Set unique, descriptive titles and concise descriptions for each indexable page.
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.vistabylara.com"),
-  title: "AI Discovery Framework | Vista by Lara",
+  metadataBase: new URL("https://www.example.com"),
+  title: "AI Discovery Framework Example",
   description:
-    "The AI Discovery Framework by Vista by Lara explains practical methods for AI-readable websites, structured data, semantic architecture, and technical SEO.",
+    "Example metadata for a site documenting AI-readable websites, structured data, semantic architecture, and technical SEO.",
   keywords: ["AI Discovery", "technical SEO", "structured data", "GEO", "AEO"],
-  authors: [{ name: "Lara Farbactian" }],
-  creator: "Vista by Lara",
   openGraph: {
     type: "website",
-    title: "AI Discovery Framework | Vista by Lara",
+    title: "AI Discovery Framework Example",
     description:
       "Practical methods for AI-readable websites, structured data, semantic architecture, and technical SEO.",
-    siteName: "Vista by Lara",
-    images: [{ url: "/logo.png", alt: "Vista by Lara" }],
   },
   twitter: {
-    card: "summary_large_image",
-    title: "AI Discovery Framework | Vista by Lara",
+    card: "summary",
+    title: "AI Discovery Framework Example",
     description:
       "Practical methods for AI-readable websites, structured data, semantic architecture, and technical SEO.",
-    images: ["/logo.png"],
   },
 }
 ```
@@ -66,7 +61,7 @@ Use a real, preferably 1200 × 630 social preview image and a verified Twitter h
 
 Use JSON-LD whose claims are also visible on the page. Choose the most specific truthful Schema.org type, keep `@id` values stable, and link related entities consistently. Validate JSON syntax and test markup with Schema.org's validator and the appropriate search-engine rich-result test. Structured data does not guarantee a rich result.
 
-`schema/organization.json` identifies the organization, founder, and Dubai location. `schema/services.json` describes the listed services and geographic service area. Pricing, business hours, exact street address, awards, and review ratings are omitted because this repository does not establish verified values. Add these only after confirmation; never fabricate aggregate ratings or credentials.
+The existing [`schemas/organization.json`](../schemas/organization.json) is a repository example, not verified production data. Confirm every organization field against the deployed site before using it. Do not publish schema JSON files as if they were indexable pages; embed accurate JSON-LD on the corresponding visible page.
 
 Article markup should be generated per published article, for example:
 
@@ -104,6 +99,6 @@ Write useful alt text that conveys the purpose of informative images; use `alt="
 
 ## Privacy, consent, and trust
 
-The included privacy notice and terms are incomplete templates, not legal policies. Document actual data collection, processors, purposes, retention, transfers, user rights, and contact paths; have qualified counsel review them for applicable jurisdictions. Inventory cookies and tracking, block non-essential technologies until consent where required, and provide a working consent and withdrawal mechanism. The compliance JSON intentionally makes no unverified privacy certification or AI-training opt-out claim.
+Before publishing legal notices, document actual data collection, processors, purposes, retention, transfers, user rights, and contact paths; have qualified counsel review them for applicable jurisdictions. Inventory cookies and tracking, block non-essential technologies until consent where required, and provide a working consent and withdrawal mechanism.
 
 Add independently verifiable citations for press, speaking, research, or case-study claims before publishing them. Keep author biographies limited to confirmed expertise and credentials. Maintain consistent organization name, contact, location, and profile links across the site and public profiles.
